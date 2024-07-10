@@ -44,5 +44,9 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npm run source:check && npm test -- --run"
+  },
+  "dependencies": {
+    "ava": "^4.3.3",
+    "lodash": "^3.10.1"
   }
 }
