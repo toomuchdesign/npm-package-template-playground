@@ -13,7 +13,7 @@
 
 Add `READ_AND_WRITE_TOKEN` token:
 
-- Add the new repo to the `Read and write content` access token in: [`User settigns > Developer Settings > Personal access tokens > Fine-grained tokens`](https://github.com/settings/tokens?type=beta)
+- Add the new repo to the `Read and write content` access token in: [`User settigns > Developer Settings > Personal access tokens > Fine-grained tokens`](https://github.com/settings/tokens?type=beta) b
 - Create a `READ_AND_WRITE_TOKEN` secret for both [`actions`](https://github.com/toomuchdesign/__repo_name__/settings/secrets/actions) and [`dependabot`](https://github.com/toomuchdesign/__repo_name__/settings/secrets/dependabot) in `Repo settings > Secrets and variables` with the value of `Read and write content` access token
 
 Give `GITHUB_TOKEN` write permissions (for Coveralls to comment PRs):
