@@ -47,6 +47,7 @@
     "pre-commit": "npm run source:check && npm test -- --run"
   },
   "dependencies": {
+    "debounce": "^2.0.0",
     "lodash": "^4.17.21"
   }
 }
