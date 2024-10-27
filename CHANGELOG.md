@@ -1,5 +1,11 @@
 # @toomuchdesign/npm-package-template
 
+## 0.2.1
+
+### Patch Changes
+
+- 3d9094e: Another test
+
 ## 0.2.0
 
 ### Minor Changes
