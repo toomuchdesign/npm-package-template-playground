@@ -35,4 +35,4 @@ npx changeset
 [npm]: https://www.npmjs.com/package/@toomuchdesign/npm-package-template
 [npm-version-badge]: https://img.shields.io/npm/v/@toomuchdesign/npm-package-template.svg
 
-3
+4
