@@ -25,6 +25,6 @@ jobs:
       - name: Create release pull request
         uses: changesets/action@v1
         with:
-          publish: changeset tag && git push --tags
+          publish: npx changeset tag
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
