@@ -1,5 +1,11 @@
 # @toomuchdesign/npm-package-template
 
+## 0.2.0
+
+### Minor Changes
+
+- dc33ae5: Just a test
+
 ## 0.1.0
 
 ### Minor Changes
