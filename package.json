@@ -34,7 +34,7 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
-    "@tsconfig/node20": "^20.1.6",
+    "@tsconfig/node20": "^20.1.7",
     "@vitest/coverage-v8": "^4.0.8",
     "prettier": "^3.6.2",
     "rimraf": "^6.1.0",
