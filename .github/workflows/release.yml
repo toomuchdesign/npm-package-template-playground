@@ -20,11 +20,11 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
+      - run: npm install -g npm@11
       - run: npm ci
 
       - name: Create release pull request
-        uses: changesets/action@v1
+        uses: changesets/action@v2.1.2
         with:
-          publish: npx changeset tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          publish-script: npx changeset tag
+          github-token: ${{ secrets.RELEASE_TOKEN }}
