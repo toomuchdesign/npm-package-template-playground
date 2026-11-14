@@ -1,6 +1,12 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "$schema": "https://unpkg.com/@changesets/config@4.0.1/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "toomuchdesign/npm-package-template",
+      "disableThanks": true
+    }
+  ],
   "commit": false,
   "fixed": [],
   "linked": [],
